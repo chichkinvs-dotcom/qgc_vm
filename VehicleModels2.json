@@ -388,8 +388,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.140.15:554/Streaming/Channels/101",
             "audioOut": "10.23.140.13",
-            "batteryMax": "",
-            "batteryMin": "",
+            "batteryMax": "67.2",
+            "batteryMin": "44",
             "buttons": [
             ],
             "cameras": [
@@ -634,8 +634,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.213.15:554/Streaming/Channels/102",
             "audioOut": "10.23.213.13",
-            "batteryMax": "",
-            "batteryMin": "",
+            "batteryMax": "67.2",
+            "batteryMin": "44",
             "buttons": [
             ],
             "cameras": [
@@ -1162,8 +1162,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.125.15:554/cam/realmonitor?channel=1&subtype=1",
             "audioOut": "10.23.125.13",
-            "batteryMax": "41.6",
-            "batteryMin": "54.6",
+            "batteryMax": "54.6",
+            "batteryMin": "41.6",
             "buttons": [
             ],
             "cameras": [
