@@ -386,47 +386,6 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "rtsp://admin:Q12wazxsw@10.23.140.15:554/Streaming/Channels/101",
-            "audioOut": "10.23.140.13",
-            "batteryMax": "67.2",
-            "batteryMin": "44",
-            "buttons": [
-            ],
-            "cameras": [
-                {
-                    "id": "dbd42aba-6edd-43c4-9191-154aeae9e4a8",
-                    "name": "Front",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.140.15:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.140.15:554/Streaming/Channels/102",
-                    "type": 1
-                },
-                {
-                    "id": "719a9af0-4f05-401b-a05d-accff85442d4",
-                    "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.140.16:554/cam/realmonitor?channel=1&subtype=0",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.140.16:554/cam/realmonitor?channel=1&subtype=1",
-                    "type": 2
-                }
-            ],
-            "dimensions": {
-                "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
-                "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
-                "rightYBot": 1,
-                "rightYTop": 0.5
-            },
-            "gcsId": "",
-            "hikAudioOut": "",
-            "id": "3a5f768f-5281-4fe6-91f9-08b1a7e6233a",
-            "motorTempHost": "",
-            "name": "Lynx40",
-            "unvAudioOut": "",
-            "winchEnabled": false
-        },
-        {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.55.15:554/Streaming/Channels/101",
             "audioOut": "10.23.55.13",
             "batteryMax": "67.2",
