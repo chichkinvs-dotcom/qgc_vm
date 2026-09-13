@@ -259,6 +259,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "591a76cf-d6ff-4969-9942-8362204cc8a2"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.128.14",
+            "id": "fe62cec7-700d-4a5b-8f17-f9389cf510eb",
+            "name": "Воля128",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "591a76cf-d6ff-4969-9942-8362204cc128"
         }
     ],
     "vehicleModels": [
@@ -1178,6 +1191,48 @@
             "id": "591a76cf-d6ff-4969-9942-8362204cc8a2",
             "motorTempHost": "",
             "name": "Воля125",
+            "unvAudioOut": "",
+            "winchEnabled": false
+        },
+        
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.128.15:554/cam/realmonitor?channel=1&subtype=1",
+            "audioOut": "10.23.128.13",
+            "batteryMax": "54.6",
+            "batteryMin": "41.6",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "7694c4bb-857b-49ad-94dd-73b2034800cf",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.128.15:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.128.15:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                },
+                {
+                    "id": "3bbf0618-33a5-47fc-88bf-9f5279dbf496",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.128.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.128.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3817708492279053,
+                "leftXTop": 0.42395833134651184,
+                "leftYBot": 1,
+                "leftYTop": 0.6991881132125854,
+                "rightXBot": 0.6135416626930237,
+                "rightXTop": 0.5682291984558105,
+                "rightYBot": 1,
+                "rightYTop": 0.6926928162574768
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "591a76cf-d6ff-4969-9942-8362204cc128",
+            "motorTempHost": "",
+            "name": "Воля128",
             "unvAudioOut": "",
             "winchEnabled": false
         }
