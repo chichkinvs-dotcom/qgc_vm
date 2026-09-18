@@ -650,6 +650,28 @@
             "batteryMax": "73",
             "batteryMin": "56",
             "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 9,
+                            "type": 0,
+                            "value": 1000
+                        }
+                    ],
+                    "id": "87a184a6-d436-4fe8-ac3e-72c33e4eecc0",
+                    "name": "РЕБ УВІМКНУТИ"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 9,
+                            "type": 0,
+                            "value": 2000
+                        }
+                    ],
+                    "id": "3e7d2e42-2402-4d72-9411-2813c15e4e8f",
+                    "name": "РЕБ ВИМКНУТИ"
+                }
             ],
             "cameras": [
                 {
