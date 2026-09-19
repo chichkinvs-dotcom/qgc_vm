@@ -567,8 +567,6 @@
             "audioOut": "10.23.66.13",
             "batteryMax": "67.2",
             "batteryMin": "51.2",
-            "buttons": [
-            ],
             "cameras": [
                 {
                     "id": "148ea86f-de67-46e5-bd32-3g08e894e3c7",
@@ -650,6 +648,28 @@
             "batteryMax": "73",
             "batteryMin": "56",
             "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 9,
+                            "type": 0,
+                            "value": 2000
+                        }
+                    ],
+                    "id": "59b39bbf-7d2d-4fed-abbc-6251da951940",
+                    "name": "РЕБ Увімкнути"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 9,
+                            "type": 0,
+                            "value": 1000
+                        }
+                    ],
+                    "id": "391bc88c-c1c8-407e-bcf4-49b64eb85b40",
+                    "name": "РЕБ Вимкнути"
+                }
             ],
             "cameras": [
                 {
@@ -690,7 +710,7 @@
             "motorTempHost": "",
             "name": "Ratel340_v",
             "unvAudioOut": "",
-            "winchEnabled": false
+            "winchEnabled": true
         },
         {
             "audioIn": "rtsp://admin:camera12!@10.23.68.15:554/media/video1",
@@ -1194,7 +1214,6 @@
             "unvAudioOut": "",
             "winchEnabled": false
         },
-        
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.128.15:554/cam/realmonitor?channel=1&subtype=1",
             "audioOut": "10.23.128.13",
