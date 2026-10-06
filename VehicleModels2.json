@@ -272,6 +272,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "591a76cf-d6ff-4969-9942-8362204cc128"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.74.14",
+            "id": "b9f5ce06-d5a8-4061-bcf4-b7b1d9544574",
+            "name": "Змій74",
+            "port": 14540,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "591a76cf-d6ff-4969-9942-8362204cc174"
         }
     ],
     "vehicleModels": [
@@ -1244,6 +1257,28 @@
             "batteryMax": "54.6",
             "batteryMin": "41.6",
             "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        }
+                    ],
+                    "id": "eb508033-a155-4f3f-90ea-a4f1cf1f8d1e",
+                    "name": "Фара вкл"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "1e4c1b73-eaeb-4c56-82f2-bc17d5179505",
+                    "name": "Фара викл"
+                }
             ],
             "cameras": [
                 {
@@ -1277,6 +1312,54 @@
             "motorTempHost": "",
             "name": "Воля128",
             "unvAudioOut": "",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.74.15:554/media/video1",
+            "audioOut": "",
+            "batteryMax": "65.9",
+            "batteryMin": "51.2",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.74.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.74.15:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.74.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.74.16:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "",
+                    "name": "Back1",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.74.17:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.74.17:554/Streaming/Channels/102",
+                    "type": 1
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3708333373069763,
+                "leftXTop": 0.4489583373069763,
+                "leftYBot": 1,
+                "leftYTop": 0.6028416752815247,
+                "rightXBot": 0.6723958253860474,
+                "rightXTop": 0.5729166865348816,
+                "rightYBot": 1,
+                "rightYTop": 0.5974289774894714
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "591a76cf-d6ff-4969-9942-8362204cc174",
+            "motorTempHost": "",
+            "name": "Змій74",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.74.15:554/media/video1",
             "winchEnabled": false
         }
     ]
